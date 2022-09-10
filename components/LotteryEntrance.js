@@ -129,7 +129,7 @@ export default function LotteryEntrance() {
                             "Enter Raffle"
                         )}
                     </button>
-                    <div>Entrance Fee: {ethers.utils.formatUnits(entranceFee, "ether")} ETH</div>
+                    <div>Entrance Fee: {ethers.utils.formatUnits(entranceFee, "ether")} MATIC</div>
                     <div>The current number of players is: {numberOfPlayers}</div>
                     <div>The most previous winner was: {recentWinner}</div>
                 </>
